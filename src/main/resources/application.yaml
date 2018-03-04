@@ -1,11 +1,22 @@
+#ÏîÄ¿·ÃÎÊÅäÖÃ
 server:
   port: 8080
   servlet:
     context-path: /demo
+
+#Ä£°åÂ·¾¶ÅäÖÃ
 remoteStaticPrefix: file:D:\\
+
+#AcuatorÅäÖÃ
 management:
   server:
     address: 127.0.0.1
     port: 9090
+
+#DevtoolsÅäÖÃ
+spring:
+  devtools:
+    restart:
+      enabled: true
 
 
